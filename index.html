@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock-Paper-Scissors</title>
+</head>
+<body>
+    <p id="score">score: 0</p>
+    <div class="container">
+        <div class="btns-div">
+            <button id="btn1" onclick="playerSelect('rock')">rock</button>
+            <button id="btn2" onclick="playerSelect('paper')">paper</button>
+            <button id="btn3" onclick="playerSelect('scissors')">scissors</button>
+        </div>
+
+        <div>
+            <h3>The computer will randomly pick one of the three</h3>
+        </div>
+        <h3 id="computer-result"></h3>
+        <button id="reset-btn" onclick="reset()">Reset</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
